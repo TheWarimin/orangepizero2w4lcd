@@ -8,7 +8,7 @@
         target = <&spi1>;
         __overlay__ {
             status = "okay";
-            cs-gpios = <&pio 7 5 0>; /*PH5=CS0 PH9=CS1*/
+            cs-gpios = <&pio 8 5 0>; /* Pin 26 for CS */
 
             nt35510: nt35510@1 {
                 compatible = "novatek,nt35510";
